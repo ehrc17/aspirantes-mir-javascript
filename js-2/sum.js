@@ -1,5 +1,15 @@
-function bmi(weight, height) {
-    return weight / height ** 2
-  }
-  
-  console.log("Tu IMC es: " + bmi(80, 1.8));
+function suma(a,b)
+
+{
+
+resultado = a+b
+
+return resultado
+
+}
+
+
+
+console.log(sum([1, 2, 3])) // 6
+console.log(sum([10, 8, 12, 5])) // 35
+console.log(sum([])) // 0
