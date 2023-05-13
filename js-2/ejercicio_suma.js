@@ -1,7 +1,13 @@
-function sumar(sum1, sum2)
+function sumar(array)
 {
-    let resultado;
-    resultado = sum1 + sum2;
-    return resultado;
+    let resultado = 0 
+    for (let i = 0; i < array.length; i ++) {
+    resultado += array[i]    
+        
+    }
+    console.log (resultado)
 }
-console.log (sumar(2,5))
+
+console.log(sumar([1, 2, 3])) // 6
+console.log(sumar([10, 8, 12, 5])) // 35
+console.log(sumar([])) // 0
